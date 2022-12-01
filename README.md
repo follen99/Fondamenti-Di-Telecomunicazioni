@@ -16,7 +16,9 @@ ___
 -
 
 ### Prima parte
-- 1.00 - Introduzione: Struttura del corso, Metodo di studio, Come studiare correttamente?
+- 1.00 - **Introduzione**: Struttura del corso, Metodo di studio, Come studiare correttamente?
+- 1.01 - **Differenze tra comunicazioni analogiche e numeriche**: Introduzione ai sistemi di comunicazioni,    Il Rumore, Vantaggi di vari tipi di trasmissione. 
+- 1.02 - **Codificatore Di Segnale**: Teorema di capacità di Shannon, Esempi di codifica; il Modulatore 
 
 ### Seconda parte
 -
