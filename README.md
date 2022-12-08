@@ -18,14 +18,14 @@ ___
 ### Prima parte: La struttura del sistema di telecomunicazioni
 
 ![image](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Risorse/Sistema_di_comunicazione_numerico.png?raw=true)
-- 1.00 - **Introduzione**: Struttura del corso, Metodo di studio, Come studiare correttamente?
-- 1.01 - **Comunicazioni analogiche e numeriche**: Introduzione ai sistemi di comunicazioni,    Il Rumore, Vantaggi di vari tipi di trasmissione. 
-- 1.02 - **Codificatore Di Segnale e Modulatore**: Teorema di capacità di Shannon, Esempi di codifica; il Modulatore 
-- 1.03 - **Il modulatore in dettaglio**, esempi di modulazione
-- 1.04 - **Il canale di trasmissione**: Diversi tipi di canali, Onde di superficie, Propagazione ionosferica, Comunicazione satellitare, Propagazione in visibilità, Attenuazione, Guadagno, Potenza inviata e ricevuta, Area efficacie, Esempi 
-- 1.05 - **Il Rumore**: Da dove proviene il rumore? Legge di **Wien**, Esempio: Segnali GPS
+- [1.00 - Introduzione](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/1.00%20-%20Introduzione.pdf): Struttura del corso, Metodo di studio, Come studiare correttamente?
+- [1.01 - Comunicazioni analogiche e numeriche](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/1.01%20-%20Comunicazioni%20Analogiche%20E%20Numeriche.pdf): Introduzione ai sistemi di comunicazioni,    Il Rumore, Vantaggi di vari tipi di trasmissione. 
+- [1.02 - Codificatore Di Segnale e Modulatore](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/1.02%20-%20Codificatore%20Di%20Canale%20E%20Modulatore.pdf): Teorema di capacità di Shannon, Esempi di codifica; il Modulatore 
+- [1.03 - Il modulatore in dettaglio](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/1.03%20-%20Il%20Modulatore%20In%20Dettaglio.pdf): esempi di modulazione
+- [1.04 - Il canale di trasmissione](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/1.04%20-%20Il%20Canale%20Di%20Trasmissione.pdf): Diversi tipi di canali, Onde di superficie, Propagazione ionosferica, Comunicazione satellitare, Propagazione in visibilità, Attenuazione, Guadagno, Potenza inviata e ricevuta, Area efficacie, Esempi 
+- [1.05 - Il Rumore](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/1.05%20-%20Il%20Rumore.pdf): Da dove proviene il rumore? Legge di **Wien**, Esempio: Segnali GPS
 ### Seconda parte
-- 2.01 - **Teoria della probabilità**: Spazio dei campioni, Le uscite sperimentali, gli eventi. Regola del **Complemento** e regola dell'**Unione**
-- 2.02 - **---**: visualizzazione degli insiemi evento, Esempio: lancio della moneta, chiusura alle operazioni di **intersezione** e **"sottrazione"**.
+- [2.01 - Teoria della probabilità](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/2.01%20-%20Teoria%20Della%20Probabilit%C3%A0.pdf): Spazio dei campioni, Le uscite sperimentali, gli eventi. Regola del Complemento** e regola dell'**Unione**
+- [2.02 - ---](): visualizzazione degli insiemi evento, Esempio: lancio della moneta, chiusura alle operazioni di **intersezione** e **"sottrazione"**.
 
 ### Terza parte
