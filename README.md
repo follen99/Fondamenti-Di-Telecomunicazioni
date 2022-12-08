@@ -17,8 +17,7 @@ ___
 
 ### Prima parte: La struttura del sistema di telecomunicazioni
 
-/Risorse/Sistema_di_comunicazione_numerico.png
-
+![image](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Risorse/Sistema_di_comunicazione_numerico.png?raw=true)
 - 1.00 - **Introduzione**: Struttura del corso, Metodo di studio, Come studiare correttamente?
 - 1.01 - **Comunicazioni analogiche e numeriche**: Introduzione ai sistemi di comunicazioni,    Il Rumore, Vantaggi di vari tipi di trasmissione. 
 - 1.02 - **Codificatore Di Segnale e Modulatore**: Teorema di capacità di Shannon, Esempi di codifica; il Modulatore 
