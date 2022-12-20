@@ -3,7 +3,7 @@ Repository dedicata allo studio di Fondamenti Di Telecomunicazioni.
 
 ## Organizzazione dei Files
 Il corso è organizzato in 3 parti; gli appunti delle lezioni possono essere trovati nella cartella ```Appunti``` e sono organizzati nel seguente modo:  
-I files che iniziano con ```0.x``` appartengono ad argomenti **non ordinati** e/o di **ripetizione**.  
+I files che iniziano con ```0.x``` appartengono ad argomenti **non ordinati** e/o di **Ripetizione / Esercizi**.  
 I files che iniziano con ```1.x``` appartengono alla prima parte del corso, che tratta principalmente della **struttura di un sistema di telecomunicazioni**.  
 I files che iniziano con ```2.x``` appartengono alla seconda parte del corso, che tratta principalmente ------.  
 I files che iniziano con ```3.x``` appartengono alla terza parte del corso, che tratta principalmente ------.
@@ -12,8 +12,9 @@ Gli appunti sono principalmente scritti "a mano", ma potrebbero essere presenti 
 
 Nella cartella ```Risorse``` è possibile trovare tutto il materiale (compreso quello fornito dal professore qualora acconsentisse) che è utile al superamento dell'esame. In questa cartella è presente anche un file ```links.md``` dove è possibile trovare tutti i link ad articoli/materiali esterni altrettanto utili al superamento dell'esame.
 ___
-### Ripassini
--
+### Ragionamenti (da imparare)
+- Lezione 1.05 - Legge di Wien
+- Lezione 2.04 - Teorema della probabilità totale
 
 ### Prima parte: La struttura del sistema di telecomunicazioni
 
@@ -26,6 +27,8 @@ ___
 - [1.05 - Il Rumore](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/1.05%20-%20Il%20Rumore.pdf): Da dove proviene il rumore? Legge di **Wien**, Esempio: Segnali GPS
 ### Seconda parte
 - [2.01 - Teoria della probabilità](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/2.01%20-%20Teoria%20Della%20Probabilit%C3%A0.pdf): Spazio dei campioni, Le uscite sperimentali, gli eventi. Regola del Complemento** e regola dell'**Unione**
-- [2.02 - ---](): visualizzazione degli insiemi evento, Esempio: lancio della moneta, chiusura alle operazioni di **intersezione** e **"sottrazione"**.
+- [2.02 -  Gli assiomi di Kolmogorov](): visualizzazione degli insiemi evento, Esempio: lancio della moneta, chiusura alle operazioni di **intersezione** e **"sottrazione"**. I tre assiomi di **Kolmogorov**
+- [2.03 - Probabilità condizionata e Composta](): Probabilità di eventi **equiprobabili**, formulazione classica, formulazione frequentistica, concetto di frequenza, probabilità condizionata,  esempi, Probabilità Composta.
+- [2.04 - Teorema della probabilità totale](): Dimostrazione della probabilità totale (usando la prob. composta), Esempi, 
 
 ### Terza parte
