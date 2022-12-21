@@ -105,6 +105,46 @@ La funzione di **distribuzione comulativa della variabile X** è costituita nel 
 
 Inoltre il "salto" che la funzione compie tra un valore ed un altro è detto **Ampiezza**, e vale:
 
-![image-20221221155137891](https://tva1.sinaimg.cn/large/008vxvgGgy1h9btk972snj30u10rsmys.jpg =250x250)
+![image-20221221155137891](https://tva1.sinaimg.cn/large/008vxvgGgy1h9btk972snj30u10rsmys.jpg)
 
 > Si dice che la funzione "cumula", infatti i valori cumulano: il valore successivo al precedente è cumulato (in questo caso) di 1/2.
+
+#### Esempio - Lancio del dado
+
+In questo caso lavoriamo con 6 uscite sperimentali:
+
+![image-20221221160119217](https://tva1.sinaimg.cn/large/008vxvgGgy1h9btui30baj31o50rs782.jpg)
+
+Di conseguenza la probabilità che X sia uguale ad ogni singola uscita sperimentale è:
+
+![image-20221221160250662](https://tva1.sinaimg.cn/large/008vxvgGgy1h9btvxij1aj31mq0rs40x.jpg)
+
+> L'insieme di tutti i valori che F può assumere si chiama **alfabeto di X** 
+
+**Tracciamo un grafico:**
+
+![image-20221221161029982](https://tva1.sinaimg.cn/large/008vxvgGgy1h9bu3w1utsj31qw0rsn13.jpg)
+
+> Questo accade ogni volta che consideriamo una variabile aleatoria **Discreta**, ovvero una variabile aleatoria in cui il numero di valori possibili che assume, è un insieme finito **discreto o numerabile**.
+
+**Nota:** la *Variabile Aleatoria* non è x (piccolo), ma X (grande)! x (piccolo) è solo la variabile indipendente, che facciamo scorrere sull'asse (delle x) per far generare valori alla funzione F<sub>X</sub>(x).
+
+#### Esempio - Lancio della moneta finchè non ottengo testa
+
+In questo caso l'insieme delle uscite sperimentali è **infinito numerabile**, perchè posso avere infinite **sequenze** di uscite sperimentali elementari finchè non ottengo una singola sequenza di uscite sperimentali che mi dia testa.
+
+Costruendo la nostra variabile aleatoria X abbiamo che:
+
+![image-20221221163322606](https://tva1.sinaimg.cn/large/008vxvgGgy1h9burp99otj319e0rswgn.jpg)
+
+Procediamo calcolando la probabilità di ogni valore (1,2,...n):
+
+![image-20221221163403311](https://tva1.sinaimg.cn/large/008vxvgGgy1h9buseawe9j32yp0rstgi.jpg)
+
+> Ci accorgiamo che "l'ultima probabilità" è sempre più piccola
+
+![image-20221221163804789](https://tva1.sinaimg.cn/large/008vxvgGgy1h9buwk8bwgj31i30rsgoq.jpg)
+
+> Nel caso in cui abbiamo un insieme infinito numerabile, la funzione è sempre a "scalini", ma non diverge a +∞
+
+🏁 Intervallo
