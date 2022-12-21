@@ -42,7 +42,7 @@ Questa variabile viene definita nel seguente modo:
 
 Sulla base di questa definizione, definiamo una serie di **funzioni standard**, ovvero funzioni reali di una variabile reale:
 
-### Funzione di distribuzione comulativa
+### Funzione di distribuzione cumulativa
 
 Una prima funzione prende il nome di **funzione di distribuzione comulativa** (**CDF**):
 
@@ -105,4 +105,6 @@ La funzione di **distribuzione comulativa della variabile X** è costituita nel 
 
 Inoltre il "salto" che la funzione compie tra un valore ed un altro è detto **Ampiezza**, e vale:
 
-![image-20221221155137891](https://tva1.sinaimg.cn/large/008vxvgGgy1h9btk972snj30u10rsmys.jpg)
+![image-20221221155137891](https://tva1.sinaimg.cn/large/008vxvgGgy1h9btk972snj30u10rsmys.jpg =250x250)
+
+> Si dice che la funzione "cumula", infatti i valori cumulano: il valore successivo al precedente è cumulato (in questo caso) di 1/2.
