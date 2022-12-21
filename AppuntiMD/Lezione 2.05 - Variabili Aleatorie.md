@@ -64,6 +64,45 @@ La prima cosa da fare è costruire la variabile aleatoria, in maniera tale che:
 Costruiamo quindi il grafico della funzione F<sub>X</sub>(x) in relazione alla variabile indipendente x; per farlo ci basta vedere che valore assume F<sub>X</sub> quando varia x:
 
 1) Prendiamo un valore: ad esempio "-1". 
-2) Ci chiediamo: "qual è la probabilità che x sia **Minore o Uguale** a -1?"
+2) Ci chiediamo: "qual è la probabilità che x sia **Minore o Uguale** a -1?" --> "Ci sono uscite sperimentali di X che ci danno un valore più piccolo di -1?" **Risposta: NO**.
 
-![image-20221221150947675](/Users/follen/Library/Application Support/typora-user-images/image-20221221150947675.png)
+![image-20221221151428920](https://tva1.sinaimg.cn/large/008vxvgGgy1h9bshl3vkhj311o0rsdhl.jpg)
+
+Questo vuol dire che l'evento {x **≤** -1} è un insieme vuoto! Abbiamo infatti:
+
+- `{x ≤ -1} = ∅`	--> L'insieme è vuoto
+- `P{x ≤ -1} = 0`   --> La probabilità è nulla
+
+Possiamo muoverci sull'asse delle "x" (variabile indipendente), ma abbiamo la certezza che **non esistono valori più piccoli di meno uno**, ma non ce ne sono nemmeno di più grandi fino ad 1. Sappiamo quindi che la probabilità sarà zero *almeno* fino allo zero **escluso**:
+
+![image-20221221152311768](https://tva1.sinaimg.cn/large/008vxvgGgy1h9bsqo531dj31500rsdhj.jpg)
+
+Adesso ci chiediamo nuovamente (siamo ad x = 0): "quando accade l'evento in cui x ≤ 0?" --> accade nel momento in cui ho croce. Infatti, stando a come abbiamo definito la nostra variabile aleatoria, quando otteniamo "croce", X vale proprio zero!
+
+Siccome siamo nell'ipotesi in cui ogni uscita è **equiprobabile**, abbiamo che per ogni uscita la probabilità è di 1/2; di conseguenza, la probabilità che Z sia minore o uguale a zero, **coincide con la probabilità che X sia uguale a zero**, ovvero proprio 1/2!
+
+![image-20221221152907744](https://tva1.sinaimg.cn/large/008vxvgGgy1h9bsx07afjj30wo0rs402.jpg)
+
+A questo punto continuiamo come abbiamo fatto finora: prendiamo un nuovo punto, ad esempio "0.4".
+
+Calcoliamo quindi la probabilità che X sia minore a 0.4: P({X ≤ 0.4}) = ? L'unico caso in cui X è minore di 0.4 è proprio quando essa vale zero, ovvero quando esce "croce", e visto che la probabilità coincide alla probabilità dell'uscita sperimentale, abbiamo che P({X ≤ 0.4}) = 0.
+
+![image-20221221153333862](https://tva1.sinaimg.cn/large/008vxvgGgy1h9bt1h6ls9j320s0rs77k.jpg)
+
+Osserviamo che il grafico rimane **costante** fino a quando non arriviamo ad x = 1; in questo caso ci chiediamo nuovamente: "quando X è minore o uguale ad 1?" In questo caso ci sono ben 2 casi: ovvero sia quando esce testa (X=1) sia quando esce croce (X=0)!
+
+Siccome sono due eventi disgiunti, la probabilità corrisponde alla **somma delle probabilità delle due**, per cui 1/2 + 1/2 = 1:
+
+![image-20221221154741443](https://tva1.sinaimg.cn/large/008vxvgGgy1h9btg5wi6uj317i0rsmzp.jpg)
+
+**Tiriamo le somme**:
+
+La funzione di **distribuzione comulativa della variabile X** è costituita nel seguente modo:
+
+![image-20221221154923599](https://tva1.sinaimg.cn/large/008vxvgGgy1h9bthxvzitj31pl0rsgp5.jpg)
+
+> La funzione è **Costante a tratti**, quindi è **continua in tutto R**.
+
+Inoltre il "salto" che la funzione compie tra un valore ed un altro è detto **Ampiezza**, e vale:
+
+![image-20221221155137891](https://tva1.sinaimg.cn/large/008vxvgGgy1h9btk972snj30u10rsmys.jpg)
