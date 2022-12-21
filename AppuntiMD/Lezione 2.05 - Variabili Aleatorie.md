@@ -39,3 +39,31 @@ Questa variabile viene definita nel seguente modo:
 
 - I<sub>E</sub> = 1 quando l'evento E si verifica
 - I<sub>E</sub> = 0 quando l'evento E non si verifica
+
+Sulla base di questa definizione, definiamo una serie di **funzioni standard**, ovvero funzioni reali di una variabile reale:
+
+### Funzione di distribuzione comulativa
+
+Una prima funzione prende il nome di **funzione di distribuzione comulativa** (**CDF**):
+
+F<sub>X</sub> (x) = P({X **≤** x})
+
+- Dove "X" è il nome della **variabile aleatoria**
+- Dove "(x)" è la variabile **indipendente** della funzione
+- Dove "{X **≤** x}" è l'evento e P è la probabilità
+  - X è la variabile aleatoria
+  - x è un valore corrente variabile
+
+#### Esempio - Lancio della moneta:
+
+La prima cosa da fare è costruire la variabile aleatoria, in maniera tale che:
+
+- X({T}) = 1
+- X({C}) = 0
+
+Costruiamo quindi il grafico della funzione F<sub>X</sub>(x) in relazione alla variabile indipendente x; per farlo ci basta vedere che valore assume F<sub>X</sub> quando varia x:
+
+1) Prendiamo un valore: ad esempio "-1". 
+2) Ci chiediamo: "qual è la probabilità che x sia **Minore o Uguale** a -1?"
+
+![image-20221221150947675](/Users/follen/Library/Application Support/typora-user-images/image-20221221150947675.png)
