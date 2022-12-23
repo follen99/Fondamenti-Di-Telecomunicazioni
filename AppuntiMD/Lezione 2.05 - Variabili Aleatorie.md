@@ -148,3 +148,4 @@ Procediamo calcolando la probabilità di ogni valore (1,2,...n):
 > Nel caso in cui abbiamo un insieme infinito numerabile, la funzione è sempre a "scalini", ma non diverge a +∞
 
 🏁 Intervallo
+

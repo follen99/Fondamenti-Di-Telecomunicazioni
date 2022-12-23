@@ -29,6 +29,8 @@ ___
 - [2.01 - Teoria della probabilità](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/Appunti/2.01%20-%20Teoria%20Della%20Probabilit%C3%A0.pdf): Spazio dei campioni, Le uscite sperimentali, gli eventi. Regola del Complemento** e regola dell'**Unione**
 - [2.02 -  Gli assiomi di Kolmogorov](): visualizzazione degli insiemi evento, Esempio: lancio della moneta, chiusura alle operazioni di **intersezione** e **"sottrazione"**. I tre assiomi di **Kolmogorov**
 - [2.03 - Probabilità condizionata e Composta](): Probabilità di eventi **equiprobabili**, formulazione classica, formulazione frequentistica, concetto di frequenza, probabilità condizionata,  esempi, Probabilità Composta.
-- [2.04 - Teorema della probabilità totale](): Dimostrazione della probabilità totale (usando la prob. composta), Esempi, 
+- [2.04 - Teorema della probabilità totale](): Dimostrazione della probabilità totale (usando la prob. composta), Esempi
+- [2.05 - Variabili Aleatorie](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/AppuntiMD/Lezione%202.05%20-%20Variabili%20Aleatorie.md): Definizione di variabile aleatoria, utilizzi, **funzione di distribuzione cumulativa**, esempi (lezione in MarkDown).
+- 2.06 - 
 
 ### Terza parte
