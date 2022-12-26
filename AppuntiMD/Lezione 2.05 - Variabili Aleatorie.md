@@ -149,3 +149,10 @@ Procediamo calcolando la probabilità di ogni valore (1,2,...n):
 
 🏁 Intervallo
 
+---
+
+Questi esempi appena visto, sono relativi a variabili aleatorie che hanno un alfabeto **discreto**, quindi o **finito** (come i primi due casi) oppure **numerabile** come quest'ultimo caso appena visto.
+
+In ogni caso parliamo di un **insieme discreto**, ovvero composto da un numero **finito** di valori assunti da x.
+
+X potrebbe anche essere continua: possiamo infatti definire una variabile aleatoria su un insieme infinito, come potrebbe essere il **tempo**: se definiamo una variabile aleatoria che va da `0` a `T` che denota l'istante di arrivo di un treno, non ci troviamo più in un sieme discreto, ma in un insieme finito (tra due numeri ce ne è sempre un terzo).
