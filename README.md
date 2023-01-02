@@ -31,6 +31,8 @@ ___
 - [2.03 - Probabilità condizionata e Composta](): Probabilità di eventi **equiprobabili**, formulazione classica, formulazione frequentistica, concetto di frequenza, probabilità condizionata,  esempi, Probabilità Composta.
 - [2.04 - Teorema della probabilità totale](): Dimostrazione della probabilità totale (usando la prob. composta), Esempi
 - [2.05 - Variabili Aleatorie](https://github.com/follen99/Fondamenti-Di-Telecomunicazioni/blob/main/AppuntiMD/Lezione%202.05%20-%20Variabili%20Aleatorie.md): Definizione di variabile aleatoria, utilizzi, **funzione di distribuzione cumulativa**, esempi (lezione in MarkDown).
-- 2.06 - 
+- 2.06 - PMF, Variabile di Poisson, confronto tra PMF e CDF
+- 2.07 - PDF, Variabile di Rayleigh, Uniforme, Esponenziale e Gaussiana (lezione in MarkDown).
+- 2.08 - Variabili Mixture, Esercizi sulle variabili Gaussiane, Calcolare la PDF di una gaussiana non standard (lezione in MarkDown).
 
 ### Terza parte
