@@ -91,6 +91,24 @@ Il comando `stem` è usato per **tracciare un segnale a sequenza discreta**.
 stem(asse_x, asse_y);
 ```
 
+### Il comando (funzione) elevazione a potenza
+
+Quando vogliamo elevare un numero alla potenza n, ci basta scrivere `a^n;`, ma solo se a **<u>è un numero</u>**.
+
+Se a è un <u>array</u>, dobbiamo elevare **<u>ogni elemento di a alla potenza</u>**, quindi ci basterà usare il carattere `.`:
+
+```matlab
+a = 2;
+a = a^2;
+disp(a);			% >> 4
+
+arr = [1 2 3];
+arr = arr^2;		% >> ERROR!
+
+arr = arr.^;		
+disp(arr);			% >> [1 4 9]
+```
+
 ## Tracciare un segnale a tempo discreto
 
 `esercizio_101`
@@ -235,3 +253,112 @@ Diamo un'occhiata a x(t), ovvero la variabile indipendente:
 
 > Output
 
+
+
+## Tracciare un segnale composto
+
+Un segnale composto è un Segnale S ottenuto dalla somma di più segnali <u>SingleTone</u>:
+
+- S = S<sub>1</sub> + S<sub>2</sub> + ... + S<sub>n</sub>
+
+```matlab
+clc
+clear all
+close all
+
+figure(1);
+
+% definizione del segnale composto
+
+t = 0 : 0.001 : 1;							% tempo con incremento di 0.001
+
+a1 = 2;
+a2 = 3;											% ampiezze
+a3 = 4;
+
+f1 = 3; 										
+f2 = 10;										% frequenze in Hz
+f3 = 100;
+
+x_1 = a1*sin(2 * pi * f1 * t);
+x_2 = a2*sin(2 * pi * f2 * t);
+x_3 = a3*sin(2 * pi * f3 * t);
+
+x_compositeSignal = x_1 + x_2 + x_3;		% il segnale composto è definito come la somma di diversi segnali
+
+subplot(4,1,1);
+plot(t, x_1);
+title('segnale single tone S1');
+
+subplot(4,1,2);
+plot(t, x_3);
+title('segnale single tone S2');
+
+subplot(4,1,3);
+plot(t, x_2); 
+title('segnale single tone S3');
+
+subplot(4,1,4);
+plot(t, x_compositeSignal);
+title('Segnale composto da S1 + S2 + S3');
+```
+
+`esercizio_106`
+
+Avremo come output:
+
+![image-20230119160941820](./assets/image-20230119160941820.png)
+
+### Analizziamo il segnale composto
+
+![image-20230119161909689](./assets/image-20230119161909689.png)
+
+> Il secondo segnale è stato invertito con il terzo.
+
+Dal codice abbiamo visto che i primi tre segnali sono composti dalla stessa ampiezza ma frequenze diverse:
+
+- S<sub>1</sub> : 3 Hz
+- S<sub>2</sub> : 10 Hz
+- S<sub>3</sub> : 100 Hz
+
+Notiamo che il primo segnale oscilla un totale di 3 volte in 1 secondo, il che lo rende un segnale avente una frequenza di 3Hz.
+
+Il secondo oscilla 10 volte in un secondo-> 10Hz
+
+Il terzo oscilla 100 volte in un secondo -> 100 Hz
+
+Quindi il segnale risultante avrà:
+
+- Frequenza "bassa" di 3Hz
+- Frequenza "media" di 10Hz
+- Frequenza "alta" di 100Hz
+
+
+
+## Tracciare un segnale esponenziale
+
+`esercizio_107`
+
+```matlab
+clc
+clear all
+close all
+
+n = -100:100;			% siccome non possiamo usare 'infinito' usiamo 100, con uno step di 1
+alpha = 0.9;			% se alpha > 1 il segnale è esponenzialmente crescente; se 0 < alpha < 1 il segnale è esponenzialmente decrescente
+
+xn = alpha.^n;
+
+figure(1);
+stem(n, xn);
+```
+
+![image-20230119164827230](./assets/image-20230119164827230.png)
+
+> Come possiamo vedere, il segnale in 0 vale 1.
+>
+> 0 < a < 1
+
+![image-20230119165126178](./assets/image-20230119165126178.png)
+
+> Per valori di a < 0, il segnale oscilla
