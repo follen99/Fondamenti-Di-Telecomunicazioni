@@ -2,6 +2,10 @@
 
 In questo file vengono coperte tutte le nozioni basilari necessarie ad utilizzare MATLAB per visualizzare/operare i segnali.
 
+[TOC]
+
+
+
 ## Comandi base
 
 ### Dichiarazione di variabili e stampa a video
@@ -108,6 +112,63 @@ arr = arr^2;		% >> ERROR!
 arr = arr.^;		
 disp(arr);			% >> [1 4 9]
 ```
+
+### Funzione definita a tratti - piecewise function
+
+Per definire una funzione continua a tratti possiamo passare per diverse strade:
+
+#### Vettori
+
+```matlab
+clear all;
+close all;
+clc;
+
+x1 = [-5: 0.1 : -3];
+y1 = 2 * ones(size(x1));
+
+x2 = [-3 : 0.1: 1];
+y2 = exp(-x2);
+
+x3 = [1: 0.1 : 5];
+y3 = 3 * ones(size(x3));
+
+x = [x1 x2 x3];
+y = [y1 y2 y3];
+
+plot(x, y);
+```
+
+Output:
+
+![image-20230120205056444](./assets/image-20230120205056444.png)
+
+#### Con Syms e Piecewise
+
+**Syms:** è usata per creare variabili simboliche scalari per funzioni e variabili simboliche vettoriali/matriciali per funzioni.
+
+`syms x` definisce la variabile simbolica x.
+
+**Piecewise:** è usata proprio per definire delle funzioni costanti a tratti:
+
+`piecewise(cond1, funct1, cond2, funct2, ... , condn, functn);`
+
+Esempio: `piecewise(x < 0, -1, x > 0, 1);`
+
+```matlab
+syms x
+y = piecewise(x < 0, -1, x > 0, 1);
+y_const = 0;
+fplot(y);
+hold on
+fplot(y_const);
+```
+
+output:
+
+![image-20230120210107623](./assets/image-20230120210107623.png)
+
+
 
 ## Tracciare un segnale a tempo discreto
 
