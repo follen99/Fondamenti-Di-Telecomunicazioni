@@ -9,6 +9,7 @@
 - Δ
 - Γ - Gamma
 - τ - Tau
+- θ - theta
 
 
 

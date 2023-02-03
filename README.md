@@ -1,6 +1,8 @@
 # Fondamenti-Di-Telecomunicazioni
 Repository dedicata allo studio di Fondamenti Di Telecomunicazioni.
 
+
+
 ## Organizzazione dei Files
 Il corso è organizzato in 3 parti; gli appunti delle lezioni possono essere trovati nella cartella ```Appunti``` e sono organizzati nel seguente modo:  
 I files che iniziano con ```0.x``` appartengono ad argomenti **non ordinati** e/o di **Ripetizione / Esercizi**.  
