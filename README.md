@@ -1,7 +1,7 @@
 # Fondamenti-Di-Telecomunicazioni
 Repository dedicata allo studio di Fondamenti Di Telecomunicazioni.
 
-
+![](https://raw.githubusercontent.com/follen99/Fondamenti-Di-Telecomunicazioni/main/AppuntiMD/assets/image-20230203184310348.png?token=GHSAT0AAAAAAB6GSW7OWVSDLWP2KXIJRGBIY65JEIA)
 
 ## Organizzazione dei Files
 Il corso è organizzato in 3 parti; gli appunti delle lezioni possono essere trovati nella cartella ```Appunti``` e sono organizzati nel seguente modo:  
