@@ -1,0 +1,24 @@
+clear all
+close all
+clc
+figure(1);
+
+time = -2 : 0.01 : 2;
+random_signal = rand(1, length(time));
+
+test = -1 : 0.5 : 1;
+random_signal = rand(1, length(test));
+
+disp(ra)
+
+subplot(2,1,1);
+plot(time,random_signal);
+title('Segnale originario');
+
+
+function filtered_signal = getFilteredSignal(originalSignal)
+    filtered_signal = zeros(1, length(originalSignal));
+    for n = 1:length(originalSignal)
+
+    end
+end
