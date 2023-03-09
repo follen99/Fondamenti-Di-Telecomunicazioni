@@ -4,6 +4,16 @@ Repository dedicata allo studio di Fondamenti Di Telecomunicazioni.
 
 ![copertina](https://i.imgur.com/dqqoxrk_d.webp?maxwidth=1520&fidelity=grand)
 
+### Link Utili
+
+- [Proprietà del coniugato Trasformata di Fourier](https://www.tutorialspoint.com/signals-and-systems-conjugation-and-autocorrelation-property-of-fourier-transform); il sito è molto utile anche per altre dimsotrazioni.
+
+- [Tutte le proprietà della Trasformata di Fourier con dimosrtazioni]([Linear Physical Systems - Erik Cheever](https://lpsa.swarthmore.edu/Fourier/Xforms/FXProps.html)).
+
+- [Dimostrazioni Trasformata di Fourier](https://www.kitsw.ac.in/departments/ECE/ashok/classes/Handouts/Properties_of_FourierTransform.pdf) (io preferisco questa pagina).
+
+- [Esercizi Segnali](http://wpage.unina.it/verdoliv/tds/appunti/Appunti_01.pdf).
+
 ### Appunti non organizzati
 
 Gli appunti degni di nota di questa sezione sono:
