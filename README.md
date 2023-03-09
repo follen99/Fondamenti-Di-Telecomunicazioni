@@ -4,21 +4,15 @@ Repository dedicata allo studio di Fondamenti Di Telecomunicazioni.
 
 ![copertina](https://i.imgur.com/dqqoxrk_d.webp?maxwidth=1520&fidelity=grand)
 
-## Organizzazione degli appunti
+### Appunti non organizzati
 
-Gli appunti sono divisi in 4 parti:
+Gli appunti degni di nota di questa sezione sono:
 
-- 0.x - File non organizzati: ad esempio ragionamenti o esercizi.
+- `0.3.2 - CheatSheet Segnali Deterministici`
 
-- 1.x - Introduzione al corso.
+- `0.05 - Dimostrazioni`
 
-- 2.x - Teoria della probabilità.
-
-- 3.x - Teoria dei segnali.
-
-### Files non organizzati
-
-L'unico file degno di nota di questa sezione è il file `0.05 - Dimostrazioni`, dove sono presenti TUTTE le dimostrazioni viste nel corso; se vuoi imparare velocemente o cerchi la risposta a qualche formula, la troverai quì, sia di probabilità che segnali.
+- `0.2.2 - Elementi Di Probabilita`
 
 ### Introduzione
 
@@ -77,6 +71,40 @@ Gli argomenti degni di nota sono:
 - Relazione di Wiener-Kintchine.
 
 
+
+Organizzazione dei files
+
+### Appunti
+
+Raccolta di appunti in formato PDF.
+
+### AppuntiGN
+
+Raccolta di appunti in formato GoodNotes; questi files sono la copia esatta degli appunti in formato PDF.
+
+### AppuntiMD
+
+Raccolta di appunti in formato MarkDown; questi files sono una rielaborazione degli appunti in PDF.
+
+### MATLAB
+
+In questa cartella sono presenti tutti gli esercizi sui segnali scritti in matlab.
+
+### Risorse
+
+In questa cartella sono presenti diversi files che sono stati utilizzati nella repository, come la copertina ed una lista di simboli ASCII usati negli AppuntiMD.
+
+## Organizzazione degli appunti
+
+Gli appunti sono divisi in 4 parti:
+
+- 0.x - File non organizzati: ad esempio ragionamenti o esercizi.
+
+- 1.x - Introduzione al corso.
+
+- 2.x - Teoria della probabilità.
+
+- 3.x - Teoria dei segnali.
 
 # ! Attenzione !
 
